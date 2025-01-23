@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-sticky">
         <div class="container-fluid">
@@ -20,8 +22,8 @@
                 <a class="navbar-brand m-2" href="#">Flower shop</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,25 +52,117 @@
             </div>
         </div>
     </nav>
-    <section class="bg-high bg-body-tertiary">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
-                    <h1 class="display-4 fw-bold">Best Flowerrs</h1>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ducimus excepturi exercitationem cum a incidunt corrupti molestiae atque, neque saepe.</p>
-                    <a href="#" class="btn btn-primary">Test</a>
-                </div>
-                <div class="col-lg-6 col-md-12 text-center">
-                    <img src="Images/logo.png" alt="Icon" class="img-fluid">
+    <main>
+        <section class="bg-high bg-body-tertiary">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="display-4 fw-bold">Best Flowerrs</h1>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ducimus
+                            excepturi exercitationem cum a incidunt corrupti molestiae atque, neque saepe.</p>
+                        <a href="#" class="btn btn-primary">Test</a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 text-center">
+                        <img src="Images/logo.png" alt="Icon" class="img-fluid">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
+        </section>
+
+        <section class="flower-section" id="flower">
+            <div class="container py-5">
+                <h2 class="display-5 fw-bold text-center mb-5">Find the Best <span class="text-cyan">Flowers</span> here
+                </h2>
+                <div class="row justify-content-center">
+                    <!-- Rose Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Rose.jpg" class="card-img-top" alt="Rose Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Rose</h5>
+                                <p class="card-text">Roses are a symbol of love and beauty. Perfect for any occasion.
+                                </p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#roseModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tulip Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Tulip.jfif" class="card-img-top" alt="Tulip Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Tulip</h5>
+                                <p class="card-text">Tulips represent perfect love and come in a variety of colors.</p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#tulipModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dahlia Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Dahlia.jpg" class="card-img-top" alt="Dahlia Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Dahlia</h5>
+                                <p class="card-text">Dahlias are known for their stunning variety of shapes and colors.
+                                </p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#dahliaModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Sunflower Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Sunflower.jpg" class="card-img-top" alt="Sunflower Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunflower</h5>
+                                <p class="card-text">Sunflowers symbolize happiness and positivity with their bright
+                                    yellow color.</p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#sunflowerModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Orchid Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Orchid.jfif" class="card-img-top" alt="Orchid Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Orchid</h5>
+                                <p class="card-text">Orchids are elegant flowers that add a touch of luxury to any
+                                    space.</p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#orchidModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Lotus Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                        <div class="card">
+                            <img src="Images/Lotus.jpg" class="card-img-top" alt="Lotus Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Lotus</h5>
+                                <p class="card-text">Lotus flowers are a symbol of purity and spiritual awakening.</p>
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                                    data-bs-target="#lotusModal">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
     <!-- JS - Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
